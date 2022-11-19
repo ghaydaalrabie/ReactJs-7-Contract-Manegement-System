@@ -1,0 +1,70 @@
+.pro{
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../src/images/header-background.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+
+
+.contaprofile{
+  margin-top: 300px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color:#FDF8F6;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+
+}
+
+.h1pro {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:20px ;
+    text-transform: uppercase;
+    font-size: 32px;
+    text-shadow: #FC0 1px 0 10px;
+
+  }
+
+  .submitpro {
+    width: 100%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    padding: 17px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    background-image: -moz-linear-gradient(to left, #D6B84A
+    ,#E8CB42);
+    background-image: -ms-linear-gradient(to left,#D6B84A
+    , #E8CB42);
+    background-image: -o-linear-gradient(to left, #D6B84A
+    ,#E8CB42);
+    background-image: -webkit-linear-gradient(to left,#D6B84A
+    ,#E8CB42);
+    background-image: linear-gradient(to left,#D6B84A
+    , #E8CB42);
+  }
+
+  .Cancelpro {
+    width: 100%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    padding: 17px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+
+  }

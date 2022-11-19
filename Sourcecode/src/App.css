@@ -1,0 +1,185 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*  */
+
+h1,h2,h3 {
+  margin: 0;
+  font-family: 'IBM Plex Sans',Serif;
+}
+p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+}
+a {
+  color: #005eeb;
+}
+a:hover {
+color: #ffb200;
+}
+.teamWrapper {
+ 
+}
+.container {
+--container: 1160px;
+max-width: var(--container);
+margin: auto;
+/* background-color: rgb(244, 243, 243); */
+}
+.teamGrid {
+  display: grid;
+  grid-template-columns: 32.33% 32.33% 32.33%;
+  column-gap: 1.5%;
+  row-gap: 10%;
+  background-color: #f7f7f4;
+
+  padding: 100px;
+  border: #dedec9 solid 1px;
+
+  margin-top: 100px;
+}
+
+
+.avatar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -80px;
+  text-align: center;
+}
+.teamcolinner {
+  position: relative;
+}
+.avatar > img {
+  width: 150px;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px solid rgb(170 170 173/ 1);
+  box-shadow: 0px 3px 10px 3px rgb(170 170 173 / 0.5);
+}
+.teamcolinner {
+  position: relative;
+  border: 1px dashed #ddd;
+  min-height: 100px;
+  background: #fff;
+  z-index: 9;
+}
+.table1 {
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+
+header {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  max-height: 1100px;
+  color: #fff;
+  background: #383838 url(https://www.athenadesignstudio.com/plugins/switch/images/bg.jpg) no-repeat center center;
+}
+
+.teamcol {
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  transition: transform 1s ease-in-out;
+}
+.teamcol:hover {
+  transform: translateY(-30px);
+  box-shadow: 0px 3px 10px 3px rgb(170 170 173 / 0.5);
+  transition: transform 1s ease-in-out;
+}
+.teamcol:before {
+  content: "";
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: -webkit-linear-gradient(#ffbf00, #ffa000);
+  border-top-right-radius: 10px;
+  transition: width 1s ease-in-out;
+}
+.teamcol:after {
+  content: "";
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: -webkit-linear-gradient(#0052cc, #005fec);
+  border-bottom-left-radius: 10px;
+  transition: width 1s ease-in-out;
+}
+.teamcol:hover::before, .teamcol:hover::after {
+  width: 100%;
+  transition: width 1s ease-in-out;
+}
+.member-name {
+  margin-top: 80px;
+}
+.member-info {
+  padding: 10px 20px;
+}
+.social-listing {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.social-listing >li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: #f4f5f7;
+  border-radius: 50%;
+  margin: 5px;
+}
+.carousel {
+  width: 1000px;
+  padding-top: 200px ;
+  
+  }
+  
